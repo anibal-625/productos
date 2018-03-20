@@ -1,6 +1,6 @@
 ﻿namespace productos
 {
-    partial class proveedoresForm
+    partial class trabajadoresForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(proveedoresForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(trabajadoresForm));
             System.Windows.Forms.Label nombreLabel;
             System.Windows.Forms.Label claveLabel;
             this.basedatos1DataSet = new productos.basedatos1DataSet();
-            this.proveedoresBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.proveedoresTableAdapter = new productos.basedatos1DataSetTableAdapters.proveedoresTableAdapter();
+            this.trabajadoresBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.trabajadoresTableAdapter = new productos.basedatos1DataSetTableAdapters.trabajadoresTableAdapter();
             this.tableAdapterManager = new productos.basedatos1DataSetTableAdapters.TableAdapterManager();
-            this.proveedoresBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
+            this.trabajadoresBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
@@ -48,15 +48,15 @@
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
-            this.proveedoresBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
+            this.trabajadoresBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.nombreTextBox = new System.Windows.Forms.TextBox();
             this.claveTextBox = new System.Windows.Forms.TextBox();
             nombreLabel = new System.Windows.Forms.Label();
             claveLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.basedatos1DataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.proveedoresBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.proveedoresBindingNavigator)).BeginInit();
-            this.proveedoresBindingNavigator.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trabajadoresBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trabajadoresBindingNavigator)).BeginInit();
+            this.trabajadoresBindingNavigator.SuspendLayout();
             this.SuspendLayout();
             // 
             // basedatos1DataSet
@@ -64,30 +64,30 @@
             this.basedatos1DataSet.DataSetName = "basedatos1DataSet";
             this.basedatos1DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // proveedoresBindingSource
+            // trabajadoresBindingSource
             // 
-            this.proveedoresBindingSource.DataMember = "proveedores";
-            this.proveedoresBindingSource.DataSource = this.basedatos1DataSet;
+            this.trabajadoresBindingSource.DataMember = "trabajadores";
+            this.trabajadoresBindingSource.DataSource = this.basedatos1DataSet;
             // 
-            // proveedoresTableAdapter
+            // trabajadoresTableAdapter
             // 
-            this.proveedoresTableAdapter.ClearBeforeFill = true;
+            this.trabajadoresTableAdapter.ClearBeforeFill = true;
             // 
             // tableAdapterManager
             // 
             this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
             this.tableAdapterManager.clientesTableAdapter = null;
-            this.tableAdapterManager.proveedoresTableAdapter = this.proveedoresTableAdapter;
-            this.tableAdapterManager.trabajadoresTableAdapter = null;
+            this.tableAdapterManager.proveedoresTableAdapter = null;
+            this.tableAdapterManager.trabajadoresTableAdapter = this.trabajadoresTableAdapter;
             this.tableAdapterManager.UpdateOrder = productos.basedatos1DataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
-            // proveedoresBindingNavigator
+            // trabajadoresBindingNavigator
             // 
-            this.proveedoresBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
-            this.proveedoresBindingNavigator.BindingSource = this.proveedoresBindingSource;
-            this.proveedoresBindingNavigator.CountItem = this.bindingNavigatorCountItem;
-            this.proveedoresBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
-            this.proveedoresBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.trabajadoresBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
+            this.trabajadoresBindingNavigator.BindingSource = this.trabajadoresBindingSource;
+            this.trabajadoresBindingNavigator.CountItem = this.bindingNavigatorCountItem;
+            this.trabajadoresBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
+            this.trabajadoresBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.bindingNavigatorMoveFirstItem,
             this.bindingNavigatorMovePreviousItem,
             this.bindingNavigatorSeparator,
@@ -99,17 +99,17 @@
             this.bindingNavigatorSeparator2,
             this.bindingNavigatorAddNewItem,
             this.bindingNavigatorDeleteItem,
-            this.proveedoresBindingNavigatorSaveItem});
-            this.proveedoresBindingNavigator.Location = new System.Drawing.Point(0, 0);
-            this.proveedoresBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
-            this.proveedoresBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
-            this.proveedoresBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
-            this.proveedoresBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
-            this.proveedoresBindingNavigator.Name = "proveedoresBindingNavigator";
-            this.proveedoresBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.proveedoresBindingNavigator.Size = new System.Drawing.Size(348, 25);
-            this.proveedoresBindingNavigator.TabIndex = 0;
-            this.proveedoresBindingNavigator.Text = "bindingNavigator1";
+            this.trabajadoresBindingNavigatorSaveItem});
+            this.trabajadoresBindingNavigator.Location = new System.Drawing.Point(0, 0);
+            this.trabajadoresBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
+            this.trabajadoresBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
+            this.trabajadoresBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
+            this.trabajadoresBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
+            this.trabajadoresBindingNavigator.Name = "trabajadoresBindingNavigator";
+            this.trabajadoresBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
+            this.trabajadoresBindingNavigator.Size = new System.Drawing.Size(291, 25);
+            this.trabajadoresBindingNavigator.TabIndex = 0;
+            this.trabajadoresBindingNavigator.Text = "bindingNavigator1";
             // 
             // bindingNavigatorMoveFirstItem
             // 
@@ -196,19 +196,19 @@
             this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 20);
             this.bindingNavigatorDeleteItem.Text = "Eliminar";
             // 
-            // proveedoresBindingNavigatorSaveItem
+            // trabajadoresBindingNavigatorSaveItem
             // 
-            this.proveedoresBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.proveedoresBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("proveedoresBindingNavigatorSaveItem.Image")));
-            this.proveedoresBindingNavigatorSaveItem.Name = "proveedoresBindingNavigatorSaveItem";
-            this.proveedoresBindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 23);
-            this.proveedoresBindingNavigatorSaveItem.Text = "Guardar datos";
-            this.proveedoresBindingNavigatorSaveItem.Click += new System.EventHandler(this.proveedoresBindingNavigatorSaveItem_Click);
+            this.trabajadoresBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.trabajadoresBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("trabajadoresBindingNavigatorSaveItem.Image")));
+            this.trabajadoresBindingNavigatorSaveItem.Name = "trabajadoresBindingNavigatorSaveItem";
+            this.trabajadoresBindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 23);
+            this.trabajadoresBindingNavigatorSaveItem.Text = "Guardar datos";
+            this.trabajadoresBindingNavigatorSaveItem.Click += new System.EventHandler(this.trabajadoresBindingNavigatorSaveItem_Click);
             // 
             // nombreLabel
             // 
             nombreLabel.AutoSize = true;
-            nombreLabel.Location = new System.Drawing.Point(177, 122);
+            nombreLabel.Location = new System.Drawing.Point(114, 63);
             nombreLabel.Name = "nombreLabel";
             nombreLabel.Size = new System.Drawing.Size(45, 13);
             nombreLabel.TabIndex = 1;
@@ -216,8 +216,8 @@
             // 
             // nombreTextBox
             // 
-            this.nombreTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.proveedoresBindingSource, "nombre", true));
-            this.nombreTextBox.Location = new System.Drawing.Point(228, 119);
+            this.nombreTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.trabajadoresBindingSource, "nombre", true));
+            this.nombreTextBox.Location = new System.Drawing.Point(165, 60);
             this.nombreTextBox.Name = "nombreTextBox";
             this.nombreTextBox.Size = new System.Drawing.Size(100, 20);
             this.nombreTextBox.TabIndex = 2;
@@ -225,7 +225,7 @@
             // claveLabel
             // 
             claveLabel.AutoSize = true;
-            claveLabel.Location = new System.Drawing.Point(177, 148);
+            claveLabel.Location = new System.Drawing.Point(114, 89);
             claveLabel.Name = "claveLabel";
             claveLabel.Size = new System.Drawing.Size(36, 13);
             claveLabel.TabIndex = 3;
@@ -233,30 +233,30 @@
             // 
             // claveTextBox
             // 
-            this.claveTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.proveedoresBindingSource, "clave", true));
-            this.claveTextBox.Location = new System.Drawing.Point(228, 145);
+            this.claveTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.trabajadoresBindingSource, "clave", true));
+            this.claveTextBox.Location = new System.Drawing.Point(165, 86);
             this.claveTextBox.Name = "claveTextBox";
             this.claveTextBox.Size = new System.Drawing.Size(100, 20);
             this.claveTextBox.TabIndex = 4;
             // 
-            // proveedoresForm
+            // trabajadoresForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(348, 261);
+            this.ClientSize = new System.Drawing.Size(291, 261);
             this.Controls.Add(nombreLabel);
             this.Controls.Add(this.nombreTextBox);
             this.Controls.Add(claveLabel);
             this.Controls.Add(this.claveTextBox);
-            this.Controls.Add(this.proveedoresBindingNavigator);
-            this.Name = "proveedoresForm";
-            this.Text = "proveedoresForm";
-            this.Load += new System.EventHandler(this.proveedoresForm_Load);
+            this.Controls.Add(this.trabajadoresBindingNavigator);
+            this.Name = "trabajadoresForm";
+            this.Text = "trabajadoresForm";
+            this.Load += new System.EventHandler(this.trabajadoresForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.basedatos1DataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.proveedoresBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.proveedoresBindingNavigator)).EndInit();
-            this.proveedoresBindingNavigator.ResumeLayout(false);
-            this.proveedoresBindingNavigator.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trabajadoresBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trabajadoresBindingNavigator)).EndInit();
+            this.trabajadoresBindingNavigator.ResumeLayout(false);
+            this.trabajadoresBindingNavigator.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -265,10 +265,10 @@
         #endregion
 
         private basedatos1DataSet basedatos1DataSet;
-        private System.Windows.Forms.BindingSource proveedoresBindingSource;
-        private basedatos1DataSetTableAdapters.proveedoresTableAdapter proveedoresTableAdapter;
+        private System.Windows.Forms.BindingSource trabajadoresBindingSource;
+        private basedatos1DataSetTableAdapters.trabajadoresTableAdapter trabajadoresTableAdapter;
         private basedatos1DataSetTableAdapters.TableAdapterManager tableAdapterManager;
-        private System.Windows.Forms.BindingNavigator proveedoresBindingNavigator;
+        private System.Windows.Forms.BindingNavigator trabajadoresBindingNavigator;
         private System.Windows.Forms.ToolStripButton bindingNavigatorAddNewItem;
         private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem;
         private System.Windows.Forms.ToolStripButton bindingNavigatorDeleteItem;
@@ -280,7 +280,7 @@
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveNextItem;
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
-        private System.Windows.Forms.ToolStripButton proveedoresBindingNavigatorSaveItem;
+        private System.Windows.Forms.ToolStripButton trabajadoresBindingNavigatorSaveItem;
         private System.Windows.Forms.TextBox nombreTextBox;
         private System.Windows.Forms.TextBox claveTextBox;
     }
